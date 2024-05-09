@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Angels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+
+
+    <section id="form">
+            <div class="wrapper">
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form name="login" method="post">
+                    <div class="input-box">
+                        <span class="icon"><i class="fas fa-envelope"></i></span>
+                        <input type="email" name="email" required>
+                        <label >email</label>
+                    </div>
+                    <div class="input-box">
+                       <span class="icon"><i class="fas fa-lock"></i></span>
+                       <input type="password" name="password" required>
+                       <label >password</label>
+                   </div>
+                   <div class="remember-forgot">
+                       <label><input type="checkbox">
+                       Remember me</label>
+                       <a href="#">Forgot password</a>
+                   </div>
+                   <button type="submit" class="btn" onclick="myfuntion()">Login</button>
+                   <div class="login-register">
+                       <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                   </div>
+                </form>
+            </div>
+            
+            <div class="form-box register">
+               <h2>Registration</h2>
+               <form action="#">
+                   <div class="input-box">
+                       <span class="icon"><i class="fas fa-user"></i></span>
+                       <input type="text" name="username" required>
+                       <label >username</label>
+                   </div>
+                   <div class="input-box">
+                       <span class="icon"><i class="fas fa-envelope"></i></span>
+                       <input type="email" name="email" required>
+                       <label >email</label>
+                   </div>
+                   <div class="input-box">
+                      <span class="icon"><i class="fas fa-lock"></i></span>
+                      <input type="password" name="password" required>
+                      <label >password</label>
+                  </div>
+                  <div class="remember-forgot">
+                      <label><input type="checkbox">
+                      I agree to the terms & conditions</label>
+                  </div>
+                  <button type="submit" class="btn">Register</button>
+                  <div class="login-register">
+                      <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                  </div>
+         
+               </form>
+            </div>  
+        
+     </section>    
+
+
+       <script src="script.js"></script>
+    </body>
+</html>
